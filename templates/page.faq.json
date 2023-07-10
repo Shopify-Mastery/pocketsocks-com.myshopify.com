@@ -1,0 +1,351 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 5,
+        "parallax": false,
+        "title": "Share your story",
+        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "gallery-00": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "164580781507f34c38-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164580781507f34c38-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164580781507f34c38-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "164580781507f34c38-0",
+        "164580781507f34c38-1",
+        "164580781507f34c38-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "below-image"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_width": "full-width"
+      }
+    },
+    "accordion-00": {
+      "type": "accordion",
+      "blocks": {
+        "164572426857089649-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why do I need Pocket Socks?",
+            "text": "<p>It's better to have it and not need it, then to not have it and to need it. We guarantee that with a Pocket Socks in your drawer, you're going to find a very good reason to use it. Traveling is the number one use, but that's only because we've just begun designing our newest variety. Our thousands of customers worldwide use them for more than travel including concert going, transporting lots of cash, business meetings, exercising and everyday comfort. How many times have you stuffed a $100 bill in your shoe? Tied a key to your shoelace? Worried about getting pick-pocketed? Pocket Socks provides a hands-free, secure and hidden way to carry some of your most important stuff while on the go.<\/p>"
+          }
+        },
+        "164572426857089649-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How many zippered pockets are in a pair?",
+            "text": "<p>One. Each comfy pair of our socks comes with one regular sock and one Sock with A Pocket.<\/p>"
+          }
+        },
+        "164572426857089649-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How much can a pocket hold?",
+            "text": "<p>Quite a bit. Passport Security Socks can hold 2 passports, wads of cash, credit cards and more. Non-passport styles can hold credit cards, cash, keys, asthma inhalers, GPS locating tiles, dog waste bags, diabetes testing devices and other valuables.<\/p>"
+          }
+        },
+        "b961fce8-05ed-4b02-ada8-03732f321cff": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I feel the pocket?",
+            "text": "<p>Barely, but just a little. A smidge if you will. When you first put them on, you may be able to feel the pocket material just a bit. The zipper (on the outside of the sock) is well cushioned by the interior so that won't be a bother. This has to be a comfy experience and we road test these ourselves to ensure total comfort.<\/p>"
+          }
+        },
+        "8f8d4171-f226-4183-a7b2-1a980c0bff9f": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Will the zipper set off metal detectors at the airport?",
+            "text": "<p>All of the zippers that we use in our Pocket Socks will not set off metal detectors. The zipper teeth are made from nylon and the zipper pull is made from nickel. In our use and tests, neither set off metal detectors. However, if you are hand-screened it is likely that the hand-held metal detector or scanners will pick up the pocket. We strongly suggest that you empty ALL of your pockets when going through airport security.<\/p>"
+          }
+        },
+        "a568432a-a9b3-40d4-8a77-69ff471052bc": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Will washing and drying the socks possibly ruin them?",
+            "text": "<p>No. Pocket Socks are built to last. Follow the washing instructions of machine wash warm, tumble dry low and do not bleach, and your socks will come out clean, intact and ready for their next use.You can even sink wash and hang-dry with our travel selection.<\/p>"
+          }
+        },
+        "88fdf61c-1328-4b6b-912f-e5f059c3b2e0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is there a recommended way to wear Pocket Socks?",
+            "text": "<p>You can wear the socks however you want, but we suggest wearing the pocket on your left foot so that the zipper is on the inside of your leg instead of facing outward. We find it easier to put contents into the pocket this way and it helps keep the pocket hidden.<\/p>"
+          }
+        },
+        "0da0db81-19c1-46e2-a19d-ae739b3ea9c3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What yarns do you use?",
+            "text": "<p>Each product has fiber content listed in the product description. We care A LOT about the yarns we select. We know you're a road warrior and the last thing you need is a blister or hot feet.<\/p>"
+          }
+        },
+        "49bbf71c-9e51-4370-822c-10b5170dbbb9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Where are Pocket Socks made?",
+            "text": "<p>We manufacture in South Korea, Mexico and USA.  We have standards for our workplaces and wages.  We don't cut corners and we take care of our people. <\/p>"
+          }
+        },
+        "3139f3fa-1d38-4051-bf8b-4269a9bd165a": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are there stores near me that carry Pocket Socks?",
+            "text": "<p>There likely are. We're in the process of putting a store locator module together for you. Check back and we'll let you know when it's ready.<\/p>"
+          }
+        },
+        "3b9e3eb9-7fb9-4c6d-a8fe-35c3ffe2e943": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I speak with a human being there?",
+            "text": "<p>Absolutely. In all honesty emailing<a href=\"mailto:support@pocketsocks.com\">support@pocketsocks.com <\/a>is the fastest way to reach us, but you can also call us at <a href=\"tel:888-494-7769\">888-494-7769<\/a>.  Phones are open M-F 9:30am - 4:30pm.  Email is usually faster.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572426857089649-0",
+        "164572426857089649-1",
+        "164572426857089649-2",
+        "b961fce8-05ed-4b02-ada8-03732f321cff",
+        "8f8d4171-f226-4183-a7b2-1a980c0bff9f",
+        "a568432a-a9b3-40d4-8a77-69ff471052bc",
+        "88fdf61c-1328-4b6b-912f-e5f059c3b2e0",
+        "0da0db81-19c1-46e2-a19d-ae739b3ea9c3",
+        "49bbf71c-9e51-4370-822c-10b5170dbbb9",
+        "3139f3fa-1d38-4051-bf8b-4269a9bd165a",
+        "3b9e3eb9-7fb9-4c6d-a8fe-35c3ffe2e943"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "caret"
+      }
+    },
+    "accordion-01": {
+      "type": "accordion",
+      "disabled": true,
+      "blocks": {
+        "164572438495310fd3-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572438495310fd3-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572438495310fd3-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572438495310fd3-0",
+        "164572438495310fd3-1",
+        "164572438495310fd3-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "caret"
+      }
+    },
+    "accordion-02": {
+      "type": "accordion",
+      "disabled": true,
+      "blocks": {
+        "164572442464b4aa49-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572442464b4aa49-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572442464b4aa49-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572442464b4aa49-0",
+        "164572442464b4aa49-1",
+        "164572442464b4aa49-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "caret"
+      }
+    },
+    "gallery-01": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "164735127391452ea4-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164735127391452ea4-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164735127391452ea4-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "93a09d38-dc11-40f6-b293-f5a8e245fc82": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "164735127391452ea4-0",
+        "164735127391452ea4-1",
+        "164735127391452ea4-2",
+        "93a09d38-dc11-40f6-b293-f5a8e245fc82"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "rich-text": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "accent",
+        "title": "Welcome to our store",
+        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "gallery-00",
+    "main",
+    "accordion-00",
+    "accordion-01",
+    "accordion-02",
+    "gallery-01",
+    "rich-text"
+  ]
+}

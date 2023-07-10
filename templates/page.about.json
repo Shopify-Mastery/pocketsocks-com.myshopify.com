@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_width": "narrow"
+      }
+    },
+    "bd4d89b7-ac36-4473-8090-5b65a7791d6d": {
+      "type": "video--video",
+      "settings": {
+        "colors": "white",
+        "title": "Message from our Founder",
+        "richtext": "",
+        "width_classes": 75,
+        "url": "https:\/\/youtu.be\/dJJWDln0Xxw",
+        "autoplay": false,
+        "loop": false,
+        "mute": false,
+        "video_overlay_opacity": 50
+      }
+    },
+    "61d30b08-802d-483d-bf13-a125ce9019d4": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-0": {
+          "type": "text",
+          "settings": {
+            "heading": "THANKS TO YOU!",
+            "subheading": "Here's a bit more of our story and why we do what we do. ",
+            "link": ""
+          }
+        },
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-1": {
+          "type": "text",
+          "settings": {
+            "heading": "OUR PROMISE",
+            "subheading": "is to quickly deliver a unique & functional sock with a pocket manufactured ethically and with the highest standards in design & quality, that's built to last.  ",
+            "link": ""
+          }
+        },
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-2": {
+          "type": "text",
+          "settings": {
+            "heading": "OUR PURPOSE",
+            "subheading": "is to design, produce and distribute a fun & functional sock line unlike any other in the world",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-0",
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-1",
+        "template--16635606794541__61d30b08-802d-483d-bf13-a125ce9019d4-16672782794156ccaa-2"
+      ],
+      "settings": {
+        "colors": "dark"
+      }
+    },
+    "rich-text-01": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "<p><strong>Founder Evan Papel was traveling through Europe when his passport and money were stolen. Over a liter stein of fine Munich beer, the idea of the sock with a pocket materialized. Papel designed a high-quality sock and hand-sewed a zippered pocket into each pair. A unique travel security solution was born and Pocket Socks started back in 2002 as Zip It Sox.<\/strong><\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "bff507db-0e91-4250-acea-213d017a33e5": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/pick-pocketing.webp",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "",
+        "text": "<p><strong>Founder Evan Papel was traveling through Europe when his passport and money were stolen. Over a liter stein of fine Munich beer, the idea of the sock with a pocket materialized. Papel designed a high-quality sock and hand-sewed a zippered pocket into each pair. A unique travel security solution was born and Pocket Socks started back in 2002 as Zip It Sox.<\/strong><\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 10,
+        "parallax": false,
+        "title": "Share your story",
+        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 34,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "image-with-text": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/about_us_info.jpg",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "",
+        "text": "<p>Zip It Sox turned in to Zip It Gear and had a great run in the 2000s until the Great Recession ended the fun. In 2017, Papel couldn’t stop thinking about the company that could have been, but never was. So, he started tinkering around with new designs, manufactured Passport Security® Pocket Socks and started selling online again. Based on excitement from new customers and Papel’s entrepreneurial passion, he decided to re-invested in his original idea. This time, he threw a whole lot of color into the mix. The colorful fun and fashionable personal expression line was born to compliment the already successful travel security & everyday convenience.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "a0ed4b41-da7a-4b98-a840-a14693fdfd94": {
+      "type": "video--video",
+      "settings": {
+        "colors": "white",
+        "title": "In 2019 Good Morning America  debuted the line on the acclaimed Steals & Deals segment launching Pocket Socks into the mainstream.",
+        "richtext": "<p>Pocket Socks has been seen on national broadcast television multiple times and is now sold worldwide.<\/p>",
+        "width_classes": 100,
+        "url": "https:\/\/youtu.be\/OWFdlfQFlEM",
+        "autoplay": false,
+        "loop": false,
+        "mute": false,
+        "video_overlay_opacity": 50
+      }
+    },
+    "image-with-text-02": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/CharitableGiving5-726x363.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "OUR GIVING",
+        "text": "<p>Helping the community and making the world a better place is really important to us.   Take a look at what we've done in just the past couple of years.  <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "rich-text": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "b510ac97-1538-4677-ae82-e552de2901e1": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/AATKlogo.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "",
+        "text": "<p>We partnered with It's All About the Kids Food Pantry to donate a meal for every pair purchased for specific sale events.  This organization is near and dear to our heart as Kids are hungry and in need of healthy meals, especially with the COVID-19 pandemic which is stranding kids who ordinarily get food from school, without access to meals. Together with the support of our customers, we accomplished an amazing feat; we donated over 12,000 meals to hungry kids in San Diego.   <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "e1d1b218-d7af-41be-9dad-eff86e562f5b": {
+      "type": "video--video",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "width_classes": 100,
+        "url": "https:\/\/youtu.be\/UXgfxuImeGw",
+        "autoplay": false,
+        "loop": true,
+        "mute": false,
+        "video_overlay_opacity": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bd4d89b7-ac36-4473-8090-5b65a7791d6d",
+    "61d30b08-802d-483d-bf13-a125ce9019d4",
+    "rich-text-01",
+    "bff507db-0e91-4250-acea-213d017a33e5",
+    "image-with-text-overlay",
+    "image-with-text",
+    "a0ed4b41-da7a-4b98-a840-a14693fdfd94",
+    "image-with-text-02",
+    "rich-text",
+    "b510ac97-1538-4677-ae82-e552de2901e1",
+    "e1d1b218-d7af-41be-9dad-eff86e562f5b"
+  ]
+}

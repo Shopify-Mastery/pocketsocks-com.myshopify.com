@@ -1,0 +1,599 @@
+{
+  "sections": {
+    "video-video-hero": {
+      "type": "video--video-hero",
+      "settings": {
+        "url": "https:\/\/youtu.be\/F7nXN58tRvQ",
+        "desktopHeight": "650",
+        "mobileHeight": "350",
+        "title": "PATENTED CREATIVE BRILLIANCE",
+        "subheading": "THE MOST CLEVER SOCK IN THE WORLD",
+        "textAlignment": "bottom-left",
+        "textColor": "#ffffff",
+        "textShadow": false,
+        "heading--text-size": 36,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "Learn more",
+        "button-text": "#333333",
+        "button-background": "#ffffff"
+      }
+    },
+    "logo-list": {
+      "type": "image--logo-list",
+      "blocks": {
+        "logo-list-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/good-morning-america-logo-7482A8CB19-seeklogo.com.png",
+            "link": ""
+          }
+        },
+        "logo-list-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/700x234-Q80_783fb9bcbdf66758f0695ed3ae332ca5.png",
+            "link": ""
+          }
+        },
+        "logo-list-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Kelly_Clarkson_Show__Logo.png",
+            "link": ""
+          }
+        },
+        "logo-list-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_2.png",
+            "link": ""
+          }
+        },
+        "7e5a98ba-8b3a-4c1c-878c-30c19c02aa4e": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnt-logo.webp",
+            "link": ""
+          }
+        },
+        "c225a79c-9a65-44a7-a1aa-de903dd4542a": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/l_atimes.png",
+            "link": ""
+          }
+        },
+        "2005f26d-a1fb-44d1-8575-90586fdaa0e3": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/washington-post-logo.jpg",
+            "link": ""
+          }
+        },
+        "a81d44af-6c81-46b2-be8f-0163ad632d00": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THallLogo-1200x675-copy-750x422.jpg",
+            "link": "https:\/\/tamronhallshow.com\/wp-content\/uploads\/2022\/09\/ths_logo_s4_v5.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo-list-0",
+        "logo-list-1",
+        "logo-list-2",
+        "logo-list-3",
+        "7e5a98ba-8b3a-4c1c-878c-30c19c02aa4e",
+        "c225a79c-9a65-44a7-a1aa-de903dd4542a",
+        "2005f26d-a1fb-44d1-8575-90586fdaa0e3",
+        "a81d44af-6c81-46b2-be8f-0163ad632d00"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "colors": "white",
+        "width": 240,
+        "title": "AS SEEN ON"
+      }
+    },
+    "text-text-adverts": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "advert-0": {
+          "type": "text",
+          "settings": {
+            "heading": "HANDSEWN",
+            "subheading": "EACH ZIPPER AND POCKET IS HANDSEWN WITH CARE BY SKILLED ARTISANS",
+            "link": ""
+          }
+        },
+        "advert-1": {
+          "type": "text",
+          "settings": {
+            "heading": "HIGHEST-QUALITY MATERIALS",
+            "subheading": "SOFTEST YARNS, HIGH-QUALITY ZIPPERS & MOISTURE RESISTANT POCKETS",
+            "link": ""
+          }
+        },
+        "24eb85c9-2f73-49fa-acc7-8d526ded0a70": {
+          "type": "text",
+          "settings": {
+            "heading": "ETHICAL MANUFACTURING",
+            "subheading": "LIVABLE WAGES, CLEAN WORKING ENVIRONMENT & CAPPED HOURS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "advert-0",
+        "advert-1",
+        "24eb85c9-2f73-49fa-acc7-8d526ded0a70"
+      ],
+      "settings": {
+        "colors": "dark"
+      }
+    },
+    "6b11d90e-0bb0-4012-99f7-ec10e7a3863b": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "template--17097614197037__6b11d90e-0bb0-4012-99f7-ec10e7a3863b-1685938973e2272cfa-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheViewBanner_FathersDayFavorite-V1_052623.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--17097614197037__6b11d90e-0bb0-4012-99f7-ec10e7a3863b-1685938973e2272cfa-0"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "image-gallery-0": {
+      "type": "image--gallery",
+      "blocks": {
+        "gallery-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1477214_EmailHeader_Footer_01-V2_101822.png",
+            "link": "shopify:\/\/pages\/shipping-policy-rates",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#1f1f1f"
+          }
+        },
+        "gallery-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1477214_EmailHeader_Footer_04-V1_101822.png",
+            "link": "shopify:\/\/pages\/about-us",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#1f1f1f"
+          }
+        },
+        "gallery-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1477214_EmailHeader_Footer_02-V2_101822.png",
+            "link": "shopify:\/\/pages\/warranty",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#1f1f1f"
+          }
+        },
+        "gallery-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1477214_EmailHeader_Footer_03-V1_101822.png",
+            "link": "shopify:\/\/pages\/shipping-policy-rates",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#1f1f1f"
+          }
+        }
+      },
+      "block_order": [
+        "gallery-0",
+        "gallery-2",
+        "gallery-1",
+        "gallery-3"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": true,
+        "section-width": "content",
+        "content-position": "hover"
+      }
+    },
+    "e35cd79f-7354-4655-b252-602217430b10": {
+      "type": "collection--featured-collection",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "fathers-day-home-page-2023",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 6,
+        "hover-effect": false,
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    },
+    "5a76b120-b3db-49da-8334-50c555f3de96": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GrommetBundle_BoysToMen-V1_052423_1.png",
+            "link": "shopify:\/\/products\/boys-to-men-bundle",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "BUY NOW",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#db1e3b",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GrommetBundle_HideAndSeek-V1_052723.png",
+            "link": "shopify:\/\/products\/hide-and-seek-bundle",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GrommetBundle_Travel-V1_052423_1_23ac25ce-591c-463b-9c85-c59d243b2646.png",
+            "link": "shopify:\/\/products\/travel-in-style",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-0",
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-1",
+        "template--17097614197037__5a76b120-b3db-49da-8334-50c555f3de96-16852337502f55f879-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "fba15c5a-69cb-4ba4-9b5b-e585dce9a971": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--16635606729005__fba15c5a-69cb-4ba4-9b5b-e585dce9a971-16670649644da169bf-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Mom_Dad-V2_102822.png",
+            "link": "shopify:\/\/collections\/for-mom-dad",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--16635606729005__fba15c5a-69cb-4ba4-9b5b-e585dce9a971-16670649644da169bf-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Women-B_102822.png",
+            "link": "shopify:\/\/collections\/womens",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606729005__fba15c5a-69cb-4ba4-9b5b-e585dce9a971-16670649644da169bf-1",
+        "template--16635606729005__fba15c5a-69cb-4ba4-9b5b-e585dce9a971-16670649644da169bf-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "SHOP BY COLLECTION",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "88a18156-2a6b-4cee-837e-92b9c6e0df4b": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/TheViewBanner_UltimateFan-X2.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "POPULAR TEAM COLORS",
+        "text": "<p>Shop our entire line of Ultimate Fan Pocket Socks with popular local, college and pro sports team colors. <\/p><p> No bags allowed in the stadium? No problem with Pocket Socks.<\/p>",
+        "button_label": "SHOP ULTIMATE FAN",
+        "button_link": "shopify:\/\/collections\/ultimate-fan"
+      }
+    },
+    "5f556320-90e0-4358-805c-3a399fd9cab1": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Mens-V2_102522.png",
+            "link": "shopify:\/\/collections\/mens-fashion-crew",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Sports-V2_102522.png",
+            "link": "shopify:\/\/collections\/basics",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_420-V1_102822.png",
+            "link": "shopify:\/\/collections\/420-munchies",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-0",
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-1",
+        "template--16635606729005__5f556320-90e0-4358-805c-3a399fd9cab1-16670649644da169bf-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "3e653c55-0903-4b25-aec9-9155f73b759e": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Travel-B_102822.png",
+            "link": "shopify:\/\/collections\/travel-security",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Animals-B_102822.png",
+            "link": "shopify:\/\/collections\/animals-nature",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1470920_Website_Product_Collection_Lead_Banner-1080x1080_Kid-01_102822.png",
+            "link": "shopify:\/\/collections\/kids-1",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-0",
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-1",
+        "template--16635606729005__3e653c55-0903-4b25-aec9-9155f73b759e-166714748345184897-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "df13df7b-2a68-4653-b4ff-46cb74730f9a": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "accent",
+        "image": "shopify:\/\/shop_images\/1488148_URGENTConvertTo1920600px_Bundles_102622_fecfebb0-48df-4997-b37f-3be2277f9d24.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "center",
+        "title": "BEST SELLING BUNDLES",
+        "text": "<p>WE TOOK THE OPPORTUNITY TO CURATE SOME OF THE BEST COUPLED ITEMS IN OUR CATALOG.   TAKE A LOOK AND SAVE TIME & MONEY.<\/p>",
+        "button_label": "SHOP BUNDLES",
+        "button_link": "shopify:\/\/collections\/gift-sets"
+      }
+    },
+    "products-featured-product-1": {
+      "type": "products--featured-product",
+      "disabled": true,
+      "blocks": {
+        "b85d1497-7404-4bbd-816c-fe222b58828d": {
+          "type": "image-offer",
+          "settings": {
+            "link": "",
+            "hover_border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "b85d1497-7404-4bbd-816c-fe222b58828d"
+      ],
+      "settings": {
+        "title": "",
+        "richtext": "",
+        "featured_product": "",
+        "product_variant_style": "swatches",
+        "hide_soldout_variants": false,
+        "show-giftwrap": false,
+        "show-vendor": false,
+        "show_product_description": true,
+        "show_quantity_selector": true,
+        "show_add_to_cart": true,
+        "show_smart_checkout": true,
+        "image-placement": "left",
+        "enable_video_loop": false
+      }
+    },
+    "f6416f32-2f33-425c-adc5-12b10e32bd2f": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "22eebfd9-18d8-4ebb-ac12-b3644b35c188": {
+      "type": "video--video",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "title": "WE GIVE BACK TO THE COMMUNITY",
+        "richtext": "",
+        "width_classes": 75,
+        "url": "https:\/\/youtu.be\/UXgfxuImeGw",
+        "autoplay": false,
+        "loop": true,
+        "mute": true,
+        "video_overlay_opacity": 50
+      }
+    },
+    "18a191a9-816c-448a-b636-f8601e23950e": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "grommet-womens-collection",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "hover-effect": true,
+        "show-vendor": false,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "video-video-hero",
+    "logo-list",
+    "text-text-adverts",
+    "6b11d90e-0bb0-4012-99f7-ec10e7a3863b",
+    "image-gallery-0",
+    "e35cd79f-7354-4655-b252-602217430b10",
+    "5a76b120-b3db-49da-8334-50c555f3de96",
+    "fba15c5a-69cb-4ba4-9b5b-e585dce9a971",
+    "88a18156-2a6b-4cee-837e-92b9c6e0df4b",
+    "5f556320-90e0-4358-805c-3a399fd9cab1",
+    "3e653c55-0903-4b25-aec9-9155f73b759e",
+    "df13df7b-2a68-4653-b4ff-46cb74730f9a",
+    "products-featured-product-1",
+    "f6416f32-2f33-425c-adc5-12b10e32bd2f",
+    "22eebfd9-18d8-4ebb-ac12-b3644b35c188",
+    "18a191a9-816c-448a-b636-f8601e23950e"
+  ]
+}

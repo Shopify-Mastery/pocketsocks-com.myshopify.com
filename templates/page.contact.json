@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "accent",
+        "title": "GET IN TOUCH",
+        "text": "<p>We're happy to help you out.  In the bottom right you'll see a live chat button.  If nobody responds, you can always fill out the form below and we'll reply ASAP.  We're open M-F 9am - 5pm PST, but we often have people responding after hours.   Glad to help!<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "main": {
+      "type": "template--page-contact",
+      "disabled": true,
+      "blocks": {
+        "name": {
+          "type": "text",
+          "settings": {
+            "field-type": "text",
+            "form-field-label": "First Name",
+            "required": true
+          }
+        },
+        "email": {
+          "type": "text",
+          "settings": {
+            "field-type": "email",
+            "form-field-label": "Email",
+            "required": true
+          }
+        },
+        "message": {
+          "type": "text",
+          "settings": {
+            "field-type": "textbox",
+            "form-field-label": "",
+            "required": false
+          }
+        },
+        "6f7988a0-c423-41d9-860a-910ef7decabd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "field-type": "text",
+            "form-field-label": "",
+            "required": false
+          }
+        },
+        "3041c657-1eae-46e4-a8e0-84350b55a473": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "field-type": "text",
+            "form-field-label": "",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message",
+        "6f7988a0-c423-41d9-860a-910ef7decabd",
+        "3041c657-1eae-46e4-a8e0-84350b55a473"
+      ],
+      "settings": {
+        "banner-image-size": "20vh",
+        "parallax": true,
+        "layout": "right"
+      }
+    },
+    "gallery": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "gallery-2": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "gallery-1": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "gallery-0": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "3a856712-4c09-43a7-8bd1-8e9d920e9093": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "title": "Heading",
+            "subheading": "Subheading",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "gallery-2",
+        "gallery-1",
+        "gallery-0",
+        "3a856712-4c09-43a7-8bd1-8e9d920e9093"
+      ],
+      "settings": {
+        "colors": "accent",
+        "title": "Gallery",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hover"
+      }
+    },
+    "5aeccec6-6ec4-4780-9821-b0bf694d46b3": {
+      "type": "newsletter--newsletter",
+      "disabled": true,
+      "settings": {
+        "colors": "light",
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": ""
+      }
+    },
+    "1408ad13-29fd-44c8-8372-09d04b67a326": {
+      "type": "advanced-layout--custom-html",
+      "disabled": true,
+      "blocks": {
+        "template--16635606827309__1408ad13-29fd-44c8-8372-09d04b67a326-16673298670c9446be-0": {
+          "type": "html",
+          "settings": {
+            "code": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"5214103\",\n    formId: \"d038494d-d435-4343-b100-8a89a9a2e0c2\"\n  });\n<\/script>",
+            "width": "75%"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606827309__1408ad13-29fd-44c8-8372-09d04b67a326-16673298670c9446be-0"
+      ],
+      "settings": {
+      }
+    },
+    "33edef63-2c45-43ca-ad22-bd81c07742cb": {
+      "type": "advanced-layout--custom-html",
+      "disabled": true,
+      "blocks": {
+        "template--16635606827309__33edef63-2c45-43ca-ad22-bd81c07742cb-1667345021a58b98a8-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"privy-embed-form\" data-campaign=\"3581753\"><\/div>",
+            "width": "75%"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606827309__33edef63-2c45-43ca-ad22-bd81c07742cb-1667345021a58b98a8-0"
+      ],
+      "settings": {
+      }
+    },
+    "dfc7abd2-98e0-4f4d-a295-36c74439e0e0": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--16635606827309__dfc7abd2-98e0-4f4d-a295-36c74439e0e0-16673486365cc37a6b-0": {
+          "type": "html",
+          "settings": {
+            "code": "<script type=\"text\/javascript\" src=\"https:\/\/form.jotform.com\/jsform\/223047975339061\"><\/script>",
+            "width": "75%"
+          }
+        }
+      },
+      "block_order": [
+        "template--16635606827309__dfc7abd2-98e0-4f4d-a295-36c74439e0e0-16673486365cc37a6b-0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "rich-text",
+    "main",
+    "gallery",
+    "5aeccec6-6ec4-4780-9821-b0bf694d46b3",
+    "1408ad13-29fd-44c8-8372-09d04b67a326",
+    "33edef63-2c45-43ca-ad22-bd81c07742cb",
+    "dfc7abd2-98e0-4f4d-a295-36c74439e0e0"
+  ]
+}

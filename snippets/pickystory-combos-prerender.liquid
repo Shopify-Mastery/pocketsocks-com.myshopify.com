@@ -1,0 +1,56 @@
+<script type="text/javascript">
+{% comment %}
+/**
+ * Optimize rendering the combo products widget by the main PickyStory app.
+ * Rendered by layout/theme.liquid.
+ * If you choose to uninstall PickyStory, this snippet can be safely deleted.
+ * Get the app: https://go.pickystory.com/8nsjceym
+ * Contact us for any questions: hello@pickystory.com.
+ * Copyright (C) 2023 Picky Story Ltd. - All Rights Reserved
+ */
+{% endcomment %}
+; (() => {
+  const getPageProductHandle = () => {
+    const path = window.location.pathname
+    const searchTerm = '/products/'
+    const start = path.lastIndexOf(searchTerm)
+    if (start < 0) return null
+    const encoded = path.slice(start + searchTerm.length).replace('/', '')
+    return decodeURI(encoded) // Decode to handle non-English letters
+  }
+  const findProductForms = ({ productHandle, compoundProductHandles, insertionMode, productFormSelector }) => {
+    if (!compoundProductHandles.includes(productHandle) || insertionMode !== 'replace') {
+      return []
+    }
+    // Override cart URL inside the selector with a localized version if necessary
+    const selector = productFormSelector.replace('"/cart/add"', '"{{ routes.cart_add_url }}"')
+    return document.querySelectorAll(selector)
+  }
+  const isProductPage = /^.*\/products\/[A-Za-z0-9-_%]+\/?$/i.test(window.location.pathname)
+  if (!isProductPage) {
+    return
+  }
+  const productHandle = getPageProductHandle()
+  if (!productHandle) {
+    return
+  }
+  const productForms = [
+    ...findProductForms({
+      productHandle,
+      compoundProductHandles: ["holiday-joy-for-him", "knee-high-3-pack", "hunter-gatherer-mens", "llamas-cheetahs-sloths-oh-my", "holiday-6-pack-for-him-and-her", "i-\ud83d\udc93-mom", "best-dad-bundle", "mr-mrs-ugly-sweater", "for-her-basics-crew-3-pack", "for-him-basics-crew-3-pack", "secret-santa-set-1", "secret-santa-set-2", "time-to-grub", "best-dad-2-pack", "best-mom-2-pack", "whole-fam-pack", "fam-fun-for-him", "fam-fun-for-her", "road-warrior", "munchie-madness", "1-for-you-2-for-me-420-3-pack-mens", "dots-for-dudes", "ultimate-dad-5-pack", "compression-technical-tall", "rainbows-unicorns", "1-dad-taco-camo-3-pack", "rugby-1-dad", "dots-turquoise-dots", "2-pack-beer-me-pizza", "3-pack-super-dad-best-dad-ever-blue-1-dad", "hooked-on-fishing-anchors", "lucky-socks-best-dad-ever-blue", "hooked-on-fishing-best-dad-ever-anchors", "everyday-security-ankle-black-large-repreve-3-pack", "1-dad-best-dad-ever", "super-dad", "crew-grey-large-crew-black-large", "crew-white-large-crew-black-large", "passport-security-socks-3-pack", "passport-black-dress-3-pack", "golf-3-pack", "2-pack-usa-super-dad-1", "2-pack-mens-sports-crew-black", "miles-of-argyles1", "copy-of-2-pack-argyle-grey-camo"],
+      insertionMode: 'replace',
+      productFormSelector: 'form[action="/cart/add"]',
+    }),
+    ...findProductForms({
+      productHandle,
+      compoundProductHandles: ["best-seller-best-value-for-her", "best-seller-best-value-for-him-1", "best-seller-best-value-everyday-sport-security"],
+      insertionMode: 'replace',
+      productFormSelector: 'form[action="/cart/add"]',
+    }),
+  ]
+  const productForm = productForms.length === 1 && productForms[0]
+  if (productForm) {
+    productForm.style.setProperty('visibility', 'hidden')
+  }
+})()
+</script>
