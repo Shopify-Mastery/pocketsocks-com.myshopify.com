@@ -576,6 +576,19 @@
         "show-vendor": false,
         "show_view_all": true
       }
+    },
+    "95628f3a-25f6-4b20-9ffa-50c1f0fc7001": {
+      "type": "collection--custom-featured-collection",
+      "settings": {
+        "colors": "white",
+        "collection": "grommet-womens-collection",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 1,
+        "hover-effect": true,
+        "show-vendor": false
+      }
     }
   },
   "order": [
@@ -594,6 +607,7 @@
     "products-featured-product-1",
     "f6416f32-2f33-425c-adc5-12b10e32bd2f",
     "22eebfd9-18d8-4ebb-ac12-b3644b35c188",
-    "18a191a9-816c-448a-b636-f8601e23950e"
+    "18a191a9-816c-448a-b636-f8601e23950e",
+    "95628f3a-25f6-4b20-9ffa-50c1f0fc7001"
   ]
 }
