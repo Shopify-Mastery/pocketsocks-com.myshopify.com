@@ -121,6 +121,15 @@
   {% render 'shogun-head' %}
   <script data-src="https://shopoe.net/app.js"></script>
   {% include 'codisto' %}
+
+  {%- if template.name == 'index' -%}
+    {{ 'slick.min.css' | asset_url | stylesheet_tag }}
+    {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+
+    {{ 'jquery-3.6.0.min.js' | asset_url | script_tag }}
+    {{ 'jquery-migrate-1.2.1.min.js' | asset_url | script_tag }}
+    {{ 'slick.min.js' | asset_url | script_tag }}
+  {%- endif -%}
 </head>
 
 {% comment %}
