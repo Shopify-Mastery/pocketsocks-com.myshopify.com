@@ -9,9 +9,22 @@
 
 <div class="wrapper-padded show-on-scroll">
 
-  <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper">
+  <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper custom-featured-collection">
+      {% liquid
+        assign collection = collections[section.settings.collection]
 
-  {%- assign collection = collections[section.settings.collection] -%}
+        if collection.image
+          assign collection_image = collection.image
+        elsif collection.products.first and collection.products.first.images != empty
+          assign collection_image = collection.products.first.featured_image
+        else
+          assign collection_image = blank
+        endif
+      %}
+
+    <div class="custom-featured-collection-banner">
+      <img src="{{ collection_image | image_url }}" width="50" height="50" loading="lazy" alt="{{ collection_image.alt }}">
+    </div>
 
   {% case section.settings.grid-desktop%}
     {% when 2 %}
@@ -65,7 +78,13 @@
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
   <div class="grid-uniform homepage-product-grid-wrapper custom-featured-collection-products">
-    {% for product in collection.products limit: product_limit %}
+    {% comment %}
+      for product in collection.products limit: product_limit
+      for product in collection.products
+    {% endcomment %}
+    {%
+      for product in collection.products
+    %}
       {%- assign grid_image_width = image_size -%}
       {% comment %}
         Set the default grid_item_width if no variable is set
@@ -91,7 +110,7 @@
       {% endif %}
 
       {% comment %} <div class="grid__item {{ grid_item_width }} featured-product--grid-item"> {% endcomment %}
-      <div class="featured-product--grid-item">
+      <div class="featured-product--grid-item" style="padding-left: 2rem">
 
         <div class="grid-view-item">
           <div class="grid-view-item-image">
@@ -202,9 +221,38 @@
 </div>
 
 <style>
+  div.wrapper-padded {
+    padding: 0px !important;
+  }
+
+  .custom-featured-collection-banner {
+    width: 50%;
+    z-index: 100;
+  }
+
+  .custom-featured-collection-banner img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .custom-featured-collection-products {
+    width: 50%;
+    overflow-x: hidden;
+  }
+  .custom-featured-collection {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+
   .slick-prev:before {
     content: '';
     width: 10px;
+    margin: auto;
     height: 20px;
     display: block;
     background: url({{ 'prev.svg' | asset_url }});
@@ -215,22 +263,98 @@
   .slick-next:before {
     content: '';
     width: 10px;
+    margin: auto;
     height: 20px;
     display: block;
     background: url({{ 'arrow-next.svg' | asset_url }});
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .slick-prev:before .slick-next:before {
+    width: 10px;
+    height: 20px;
+  }
+
+
+  .slick-next {
+    right: -5px;
+  }
+
+  .slick-prev {
+    left: 10px;
+  }
+
+  .slick-prev, .slick-next {
+    top: 30%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .slick-next {
+      right: -5px;
+    }
+
+    .slick-prev {
+      left: 15px;
+    }
+
+    .slick-prev, .slick-next {
+      top: 25%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .slick-next {
+      right: -5px;
+    }
+
+    .slick-prev {
+      left: 18px;
+    }
+
+    .slick-prev, .slick-next {
+      top: 20%;
+    }
+  }
+
 </style>
 
 <script>
-  $('.custom-featured-collection-products').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dots: false,
-    arrow: true,
-  });
+
+  if(window.innerWidth < 768) {
+    $('.custom-featured-collection-products').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      arrow: true,
+    });
+  } else if(window.innerWidth < 1024) {
+    $('.custom-featured-collection-products').slick({
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      dots: false,
+      arrow: true,
+    });
+  } else if (window.innerWidth < 1440) {
+    $('.custom-featured-collection-products').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      dots: false,
+      arrow: true,
+    });
+  } else {
+    $('.custom-featured-collection-products').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      dots: false,
+      arrow: true,
+    });
+  }
+
 </script>
 
 {% schema %}

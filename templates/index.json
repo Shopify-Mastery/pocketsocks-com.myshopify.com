@@ -581,7 +581,7 @@
       "type": "collection--custom-featured-collection",
       "settings": {
         "colors": "white",
-        "collection": "grommet-womens-collection",
+        "collection": "womens",
         "grid-desktop": 4,
         "grid-tablet": 3,
         "grid-mobile": 2,
