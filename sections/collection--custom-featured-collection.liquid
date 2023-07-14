@@ -240,6 +240,7 @@
 
   .custom-featured-collection-products {
     width: 100%;
+    padding-top: 2rem;
     overflow-x: hidden;
   }
 
@@ -261,6 +262,7 @@
 
     .custom-featured-collection-products {
       width: 50%;
+      padding-top: 0px;
     }
   }
 
@@ -339,32 +341,32 @@
   if(window.innerWidth < 768) {
     $('.custom-featured-collection-products').slick({
       infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: {{ section.settings.grid-mobile }},
+      slidesToScroll: {{ section.settings.grid-mobile }},
       dots: false,
       arrow: true,
     });
   } else if(window.innerWidth < 1024) {
     $('.custom-featured-collection-products').slick({
       infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: {{ section.settings.grid-tablet }},
+      slidesToScroll: {{ section.settings.grid-tablet }},
       dots: false,
       arrow: true,
     });
   } else if (window.innerWidth < 1440) {
     $('.custom-featured-collection-products').slick({
       infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: {{ section.settings.grid-tablet }},
+      slidesToScroll: {{ section.settings.grid-tablet }},
       dots: false,
       arrow: true,
     });
   } else {
     $('.custom-featured-collection-products').slick({
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: {{ section.settings.grid-desktop }},
+      slidesToScroll: {{ section.settings.grid-desktop }},
       dots: false,
       arrow: true,
     });
