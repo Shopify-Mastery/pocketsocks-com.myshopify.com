@@ -77,7 +77,7 @@
 
   {%- assign product_limit = section.settings.grid-desktop | times: section.settings.rows -%}
 
-  <div class="grid-uniform homepage-product-grid-wrapper custom-featured-collection-products">
+  <div class="grid-uniform homepage-product-grid-wrapper custom-featured-collection-products-{{ section.id }}">
     {% comment %}
       for product in collection.products limit: product_limit
       for product in collection.products
@@ -238,7 +238,7 @@
     object-fit: contain;
   }
 
-  .custom-featured-collection-products {
+  .custom-featured-collection-products-{{ section.id }} {
     width: 100%;
     padding-top: 2rem;
     overflow-x: hidden;
@@ -260,7 +260,7 @@
       width: 50%;
     }
 
-    .custom-featured-collection-products {
+    .custom-featured-collection-products-{{ section.id }} {
       width: 50%;
       padding-top: 0px;
     }
@@ -339,7 +339,7 @@
 <script>
 
   if(window.innerWidth < 768) {
-    $('.custom-featured-collection-products').slick({
+    $('.custom-featured-collection-products-{{ section.id }}').slick({
       infinite: true,
       slidesToShow: {{ section.settings.grid-mobile }},
       slidesToScroll: {{ section.settings.grid-mobile }},
@@ -347,7 +347,7 @@
       arrow: true,
     });
   } else if(window.innerWidth < 1024) {
-    $('.custom-featured-collection-products').slick({
+    $('.custom-featured-collection-products-{{ section.id }}').slick({
       infinite: true,
       slidesToShow: {{ section.settings.grid-tablet }},
       slidesToScroll: {{ section.settings.grid-tablet }},
@@ -355,7 +355,7 @@
       arrow: true,
     });
   } else if (window.innerWidth < 1440) {
-    $('.custom-featured-collection-products').slick({
+    $('.custom-featured-collection-products-{{ section.id }}').slick({
       infinite: true,
       slidesToShow: {{ section.settings.grid-tablet }},
       slidesToScroll: {{ section.settings.grid-tablet }},
@@ -363,7 +363,7 @@
       arrow: true,
     });
   } else {
-    $('.custom-featured-collection-products').slick({
+    $('.custom-featured-collection-products-{{ section.id }}').slick({
       infinite: true,
       slidesToShow: {{ section.settings.grid-desktop }},
       slidesToScroll: {{ section.settings.grid-desktop }},
